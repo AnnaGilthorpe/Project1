@@ -5,8 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div> </nav>
 </head>
 <body>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Night Out</h5>
+          <p class="card-text">All your plans in one place.</p>
+          <a href="#" class="btn btn-primary">Book my night out</a>
+        </div>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             Where would you like your night out to be?
+            </button>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Location
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">London</a></li>
+                  <li><a class="dropdown-item" href="#">Birmingham</a></li>
+                  <li><a class="dropdown-item" href="#">Manchester</a></li>
+                  <li><a class="dropdown-item" href="#">Leeds</a></li>
+                  <li><a class="dropdown-item" href="#">Norwich</a></li>
+                  <li><a class="dropdown-item" href="#">Sheffield</a></li>
+                  <li><a class="dropdown-item" href="#">Newcastle</a></li>
+                  <li><a class="dropdown-item" href="#">Bristol</a></li>
+                  <li><a class="dropdown-item" href="#">Glasgow</a></li>
+                  <li><a class="dropdown-item" href="#">Edinburgh</a></li>
+                  <li><a class="dropdown-item" href="#">Cardiff</a></li>
+                </ul>
+              </div>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              When would you like your night out to be?
+            </button>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Date
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">London</a></li>
+                  <li><a class="dropdown-item" href="#">Birmingham</a></li>
+                  <li><a class="dropdown-item" href="#">Manchester</a></li>
+                  <li><a class="dropdown-item" href="#">Leeds</a></li>
+                  <li><a class="dropdown-item" href="#">Norwich</a></li>
+                  <li><a class="dropdown-item" href="#">Sheffield</a></li>
+                  <li><a class="dropdown-item" href="#">Newcastle</a></li>
+                  <li><a class="dropdown-item" href="#">Bristol</a></li>
+                  <li><a class="dropdown-item" href="#">Glasgow</a></li>
+                  <li><a class="dropdown-item" href="#">Edinburgh</a></li>
+                  <li><a class="dropdown-item" href="#">Cardiff</a></li>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Who would you like to watch
+              </button>
+              <form class="row g-3">
+                <div class="col-auto">
+                  <label for="staticEmail2" class="visually-hidden">Artist Name</label>
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Artist Name">
+                </div>
+                <div class="col-auto">
+                  <label for="inputPassword2" class="visually-hidden">Artist Name</label>
+                  <input type="password" class="form-control" id="ArtistName">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
+              </form>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Type of Music
+            </button>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genre
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Jazz</a></li>
+                  <li><a class="dropdown-item" href="#">Rock</a></li>
+                  <li><a class="dropdown-item" href="#">Pop</a></li>
+                  <li><a class="dropdown-item" href="#">Folk</a></li>
+                  <li><a class="dropdown-item" href="#">Classical</a></li>
+                  
+          </h2> -->
+
+          <!-- <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div> -->
     
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Would you like to book accomodation?
+          </button>
+          <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Ticket
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Yes</a></li>
+                <li><a class="dropdown-item" href="#">No</a></li>
+                
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+   
+
+      
+      
+        
+
+         <script src="script.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
