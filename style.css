@@ -3,6 +3,19 @@ body {
     background-color: #7247ea;
 }
 
+.navbar-brand {
+    margin-left: 50px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+navbar {
+    background-color: #230667;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
