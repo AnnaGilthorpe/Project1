@@ -1,6 +1,69 @@
 body {
     font-family: 'Archivo', sans-serif;
-    background-color: #7247ea;
+    background-color: #86E5FF !important;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar {
+    background-color: #13005A !important;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+button {
+    background-color: #5B8FB9;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.accordion-item {
+    background-color: #86E5FF !important;
+}
+
+.accordion-button {
+    background-color: #86E5FF !important;
+}
+
+.dropdown {
+    padding-left: 50px !important;
+}
+
+.btn {
+    background-color: #13005A !important;
+}
+
+.btn:hover {
+    background-color: #1C82AD !important;
+}
+
+#artist-name {
+    margin-left: 50px;
+}
+
+#ArtistName {
+    margin-left: 50px;
+}
+
+.submit-button {
+    margin-left: 50px;
+}
+
+.accordion-item-three {
+    margin-bottom: 100px;
+    background-color: #86E5FF !important;
 }
 
 input[type=text], select, textarea {
@@ -15,7 +78,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: #7247ea;
+    background-color: #5B8FB9;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -24,13 +87,14 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #8b85e7;
+    background-color: #1C82AD;
 }
   
 .container {
-    margin-top: 50px;
+    margin-top: 25px;
     border-radius: 5px;
-    background-color: #230667;
+    background-color: #13005A;
     padding: 20px;
     color: white;
+    /* box-shadow: 10px 10px 10px rgb(55, 52, 223); */
 }
