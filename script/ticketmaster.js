@@ -235,6 +235,19 @@ bookingDiv.innerHTML= `<div class="row g-0">
 })})
 
 
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': '368853d1ecmshf08dfad6a3f5517p11fdb2jsnac38bffe319a',
+// 		'X-RapidAPI-Host': 'booking-com.p.rapidapi.com'
+// 	}
+// };
+
+// fetch('https://booking-com.p.rapidapi.com/v1/hotels/locations?locale=en-gb&name=London', options)
+// 	.then(response => response.json())
+// 	.then(response => console.log(response))
+// 	.catch(err => console.error(err));
+//     console.log(options)
 
 
 
