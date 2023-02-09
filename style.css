@@ -4,8 +4,35 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 50px;
     color: white;
+}
+
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out !important; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .nav-link {
@@ -25,8 +52,15 @@ button {
     background-color: #5B8FB9;
 }
 
+#flush-headingThree {
+    border: 0;
+}
+
 .main-image {
     width: 100%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .accordion-item {
@@ -35,6 +69,10 @@ button {
 
 .accordion-button {
     background-color: #86E5FF !important;
+}
+
+.submit-button {
+    margin-left: 50px;
 }
 
 .dropdown {
@@ -62,7 +100,7 @@ button {
 }
 
 .accordion-item-three {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #86E5FF !important;
 }
 
