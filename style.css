@@ -1,0 +1,138 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: #86E5FF !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out !important; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar {
+    background-color: #13005A !important;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+button {
+    background-color: #5B8FB9;
+}
+
+#flush-headingThree {
+    border: 0;
+}
+
+.main-image {
+    width: 100%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.accordion-item {
+    background-color: #86E5FF !important;
+}
+
+.accordion-button {
+    background-color: #86E5FF !important;
+}
+
+.submit-button {
+    margin-left: 50px;
+}
+
+.dropdown {
+    padding-left: 50px !important;
+}
+
+.btn {
+    background-color: #13005A !important;
+}
+
+.btn:hover {
+    background-color: #1C82AD !important;
+}
+
+#artist-name {
+    margin-left: 50px;
+}
+
+#ArtistName {
+    margin-left: 50px;
+}
+
+.submit-button {
+    margin-left: 50px;
+}
+
+.accordion-item-three {
+    margin-bottom: 50px;
+    background-color: #86E5FF !important;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+}
+  
+input[type=submit] {
+    background-color: #5B8FB9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #1C82AD;
+}
+  
+.container {
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #13005A;
+    padding: 20px;
+    color: white;
+    /* box-shadow: 10px 10px 10px rgb(55, 52, 223); */
+}
