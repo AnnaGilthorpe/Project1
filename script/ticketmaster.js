@@ -105,7 +105,6 @@ ticketDiv.innerHTML = `<div class="card mb-3" style="max-width: 100%;">
     <h6 class="card-text">£${response._embedded.events[0].priceRanges[0].min} to £${response._embedded.events[0].priceRanges[0].max} </h6>
       <h6 class="card-text">${response._embedded.events[0].dates.start.localDate}</h6>
       <a class="btn btn-primary" href="${response._embedded.events[0].url}" role="button">Book Now</a>
-
     </div>
   </div>
 </div>
@@ -181,7 +180,6 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[0].zip} </h4>
       <h4 class="card-text"> ${response.result[0].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[0].composite_price_breakdown.all_inclusive_amount.value} </h5>
-
       <a class="btn btn-primary" href="${response.result[0].url}" role="button">Book Now</a>
     </div>
   </div>
@@ -198,7 +196,6 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[1].zip} </h4>
       <h4 class="card-text"> ${response.result[1].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[1].composite_price_breakdown.all_inclusive_amount.value} </h5>
-
       <a class="btn btn-primary" href="${response.result[1].url}" role="button">Book Now</a>
     </div>
   </div>
@@ -215,7 +212,6 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[2].zip} </h4>
       <h4 class="card-text"> ${response.result[2].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[2].composite_price_breakdown.all_inclusive_amount.value} </h5>
-
       <a class="btn btn-primary" href="${response.result[2].url}" role="button">Book Now</a>
     </div>
   </div>
@@ -232,7 +228,6 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[3].zip} </h4>
       <h4 class="card-text"> ${response.result[3].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[3].composite_price_breakdown.all_inclusive_amount.value} </h5>
-
       <a class="btn btn-primary" href="${response.result[3].url}" role="button">Book Now</a>
     </div>
   </div>
@@ -249,7 +244,6 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[4].zip} </h4>
       <h4 class="card-text"> ${response.result[4].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[4].composite_price_breakdown.all_inclusive_amount.value} </h5>
-
       <a class="btn btn-primary" href="${response.result[4].url}" role="button">Book Now</a>
     </div>
   </div>
@@ -284,6 +278,8 @@ ticketDiv.innerHTML = `<div class="card mb-3" style="max-width: 100%;">
     <h6 class="card-text">£${response._embedded.events[0].priceRanges[0].min} to £${response._embedded.events[0].priceRanges[0].max} </h6>
       <h6 class="card-text">${response._embedded.events[0].dates.start.localDate}</h6>
       <a class="btn btn-primary" href="${response._embedded.events[0].url}" role="button">Book Now</a>
+
+
 
     </div>
   </div>
@@ -390,6 +386,75 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[1].zip} </h4>
       <h4 class="card-text"> ${response.result[1].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[1].composite_price_breakdown.all_inclusive_amount.value} </h5>
+      <a class="btn btn-primary" href="${response.result[1].url}" role="button">Book Now</a>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 100%;">
+<div class="row g-0">
+  <div class="col-4" >
+    <img src="${response.result[2].max_1440_photo_url}" class="img-fluid rounded-start" alt="...">
+  </div>
+  <div class="col-8">
+    <div class="card-body">
+      <h3 class="card-title">${response.result[2].hotel_name}</h3>
+      <h4 class="card-text"> ${response.result[2].address} </h4>
+      <h4 class="card-text"> ${response.result[2].zip} </h4>
+      <h4 class="card-text"> ${response.result[2].city} </h4>
+      <h5 class="card-text"> Overall:£${response.result[2].composite_price_breakdown.all_inclusive_amount.value} </h5>
+      <a class="btn btn-primary" href="${response.result[2].url}" role="button">Book Now</a>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 100%;">
+<div class="row g-0">
+  <div class="col-4" >
+    <img src="${response.result[3].max_1440_photo_url}" class="img-fluid rounded-start" alt="...">
+  </div>
+  <div class="col-8">
+    <div class="card-body">
+      <h3 class="card-title">${response.result[3].hotel_name}</h3>
+      <h4 class="card-text"> ${response.result[3].address} </h4>
+      <h4 class="card-text"> ${response.result[3].zip} </h4>
+      <h4 class="card-text"> ${response.result[3].city} </h4>
+      <h5 class="card-text"> Overall:£${response.result[3].composite_price_breakdown.all_inclusive_amount.value} </h5>
+      <a class="btn btn-primary" href="${response.result[3].url}" role="button">Book Now</a>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 100%;">
+<div class="row g-0">
+  <div class="col-4" >
+    <img src="${response.result[4].max_1440_photo_url}" class="img-fluid rounded-start" alt="...">
+  </div>
+  <div class="col-8">
+    <div class="card-body">
+      <h3 class="card-title">${response.result[4].hotel_name}</h3>
+      <h4 class="card-text"> ${response.result[4].address} </h4>
+      <h4 class="card-text"> ${response.result[4].zip} </h4>
+      <h4 class="card-text"> ${response.result[4].city} </h4>
+      <h5 class="card-text"> Overall:£${response.result[4].composite_price_breakdown.all_inclusive_amount.value} </h5>
+      <a class="btn btn-primary" href="${response.result[4].url}" role="button">Book Now</a>
+    </div>
+  </div>
+</div>`
+
+      <a class="btn btn-primary" href="${response.result[0].url}" role="button">Book Now</a>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 100%;">
+<div class="row g-0">
+  <div class="col-4" >
+    <img src="${response.result[1].max_1440_photo_url}" class="img-fluid rounded-start" alt="...">
+  </div>
+  <div class="col-8">
+    <div class="card-body">
+      <h3 class="card-title">${response.result[1].hotel_name}</h3>
+      <h4 class="card-text"> ${response.result[1].address} </h4>
+      <h4 class="card-text"> ${response.result[1].zip} </h4>
+      <h4 class="card-text"> ${response.result[1].city} </h4>
+      <h5 class="card-text"> Overall:£${response.result[1].composite_price_breakdown.all_inclusive_amount.value} </h5>
 
       <a class="btn btn-primary" href="${response.result[1].url}" role="button">Book Now</a>
     </div>
@@ -407,6 +472,9 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
       <h4 class="card-text"> ${response.result[2].zip} </h4>
       <h4 class="card-text"> ${response.result[2].city} </h4>
       <h5 class="card-text"> Overall:£${response.result[2].composite_price_breakdown.all_inclusive_amount.value} </h5>
+
+
+})})})})
 
       <a class="btn btn-primary" href="${response.result[2].url}" role="button">Book Now</a>
     </div>
@@ -450,4 +518,5 @@ bookingDiv.innerHTML= `<div class="card mb-3" style="max-width: 100%;">
 
 
 })})})})
+
 
