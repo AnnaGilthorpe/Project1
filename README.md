@@ -2,9 +2,9 @@
 
 A bootcamp project by Anna Gilthorpe, Ashley Cook and James Fahey.
 
-![Screenshot](./images/screenshot1.jpg)
-![Screenshot](./images/screenshot2.jpg)
-![Screenshot](./images/screenshot3.jpg)
+![Screenshot](./Images/screenshot1.jpg)
+![Screenshot](./Images/screenshot2.jpg)
+![Screenshot](./Images/screenshot3.jpg)
 
 ## Tech Used
 
