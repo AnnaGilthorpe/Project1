@@ -136,3 +136,22 @@ input[type=submit]:hover {
     color: white;
     /* box-shadow: 10px 10px 10px rgb(55, 52, 223); */
 }
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;;
+}
+
+.bio-container {
+    padding: 50px;
+}
+
+.ash-image {
+    text-align: right;
+    padding-left: 25px;
+}
+
+.james-image {
+    padding-right: 25px;
+}
