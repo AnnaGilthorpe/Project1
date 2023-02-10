@@ -136,3 +136,7 @@ input[type=submit]:hover {
     color: white;
     /* box-shadow: 10px 10px 10px rgb(55, 52, 223); */
 }
+
+footer {
+    background-color: #13005A;
+}
