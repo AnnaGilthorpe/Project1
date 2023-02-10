@@ -3,11 +3,18 @@ let eventDate = document.querySelector("#date-picker")
 let ticketDiv = document.querySelector(".ticketMast")
 let bookingDiv = document.querySelector(".booking")
 let cityNaame = document.querySelector("#cityNaame")
+
 cityLocale.addEventListener("click", function local(event) {  
   event.stopPropagation()
 event.preventDefault()  
     let cityName = event.target.textContent
-cityNaame.textContent = cityName
+    cityNaame.textContent = cityName
+    window.localStorage.setItem("region", cityName)
+
+
+
+   
+    
 
 if (cityName === "London") {
        let cityName = "602"
@@ -70,13 +77,93 @@ if (cityName === "London") {
                                console.log(cityName)
                                    }
                                  
+                                  
+                                  })
 
-                                })
+
+                                  let savedData = window.localStorage.getItem('region')
+                                  let newBtnn = document.createElement("button")
+                                  newBtnn.setAttribute("class", "btn btn-primary button-save")
+                                      newBtnn.textContent = savedData
+                                      cityNaame.appendChild(newBtnn)
+                                      
+                                      let saveButton = document.querySelector(".button-save")
+
+
+saveButton.addEventListener("click", function saveBtn(event) {  
+event.stopPropagation()
+event.preventDefault()  
+    let cityName = event.target.textContent
+if (cityName === "London") {
+       let cityName = "602"
+       let codeBook = "2601889"
+       cityBooking.push(codeBook)
+       cityCode.push(cityName)
+       console.log(codeBook)
+       }
+       if (cityName === "South") {
+           let cityName = "603"
+           let codeBook = "2590884"
+           cityBooking.push(codeBook)
+           cityCode.push(cityName)
+           console.log(cityName)
+        
+        }
+       
+       if (cityName === "Midlands and Central") {
+           let cityName = "604"
+           let codeBook = "2589989"
+           cityBooking.push(codeBook)
+           cityCode.push(cityName)
+       console.log(cityName)
+           }
+       
+           if (cityName === "Wales and North West") {
+               let cityName = "605"
+               let codeBook = "2602512"
+           cityBooking.push(codeBook)
+               cityCode.push(cityName)
+       console.log(cityName)
+               }
+       
+               if (cityName === "Scotland") {
+                   let cityName = "607"
+                   let codeBook = "2597039"
+           cityBooking.push(codeBook)
+                   cityCode.push(cityName)
+                   console.log(cityName)
+                   }
+                   if (cityName === "North and North East") {
+                       let cityName = "606"
+                       let cityBooking = "2603966"
+                       cityBooking.push(codeBook)
+                       cityCode.push(cityName)
+       console.log(cityName)
+                       }
+                       if (cityName === "All of Ireland") {
+                           let cityName = "608"
+                           let cityBooking = "1502554"
+                           cityBooking.push(codeBook)
+                           cityCode.push(cityName)
+       console.log(cityName)
+                           }
+                           if (cityName === "Northern Ireland") {
+                               let cityName = "609"
+                               let cityBooking = "2589607"
+                           cityBooking.push(codeBook)
+                               cityCode.push(cityName)
+                               console.log(cityName)
+                                   }
+                                 
+                                  
+                                  })
+
     
 
 let cityBooking = []
 console.log(cityBooking)
 let cityCode = []
+let localS = []
 console.log(cityCode)
 let submitEvent = document.querySelector("#ticketmasterSubmit") 
 let findArtist = document.querySelector("#artistListButton")
