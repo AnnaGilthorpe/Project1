@@ -124,13 +124,13 @@ input[type=submit]:hover {
 }
   
 .contact-container {
-    margin: 100px;
-    margin-top: 25px;
-    border-radius: 5px;
-    background-color: #13005A;
-    padding: 20px;
-    color: white;
-    box-shadow: 10px 10px 10px rgb(55, 52, 223);
+    margin: 100px !important;
+    margin-top: 25px !important;
+    border-radius: 5px !important;
+    background-color: #13005A !important;
+    padding: 20px !important;
+    color: white !important;
+    box-shadow: 10px 10px 10px rgb(55, 52, 223) !important;
 }
 
 h1 {
