@@ -52,10 +52,6 @@ button {
     background-color: #5B8FB9;
 }
 
-#flush-headingThree {
-    border: 0;
-}
-
 .main-image {
     width: 100%;
     animation: fadeInAnimation ease 5s;
@@ -99,9 +95,8 @@ button {
     margin-left: 50px;
 }
 
-.accordion-item-three {
-    margin-bottom: 50px;
-    background-color: #86E5FF !important;
+.not-sure {
+    padding-left: 2px;
 }
 
 input[type=text], select, textarea {
@@ -128,13 +123,14 @@ input[type=submit]:hover {
     background-color: #1C82AD;
 }
   
-.container {
+.contact-container {
+    margin: 100px;
     margin-top: 25px;
     border-radius: 5px;
     background-color: #13005A;
     padding: 20px;
     color: white;
-    /* box-shadow: 10px 10px 10px rgb(55, 52, 223); */
+    box-shadow: 10px 10px 10px rgb(55, 52, 223);
 }
 
 h1 {
@@ -143,18 +139,32 @@ h1 {
     padding-bottom: 25px;;
 }
 
+hr {
+    max-width: 50% !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+}
+
 .bio-container {
     padding: 50px;
 }
 
 .ash-image {
-    text-align: right;
-    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .james-image {
     padding-right: 25px;
 }
-    footer {
+
+footer {
     background-color: #13005A;
+}
+
+.social-icons {
+    background-color: #333333;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
 }
